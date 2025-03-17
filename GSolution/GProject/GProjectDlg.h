@@ -1,7 +1,7 @@
 ﻿
 // GProjectDlg.h: 헤더 파일
 //
-
+#include "CDlgImage.h"
 #pragma once
 
 
@@ -11,6 +11,8 @@ class CGProjectDlg : public CDialogEx
 // 생성입니다.
 public:
 	CGProjectDlg(CWnd* pParent = nullptr);	// 표준 생성자입니다.
+
+	CDlgImage* m_pDlgImage;
 
 // 대화 상자 데이터입니다.
 #ifdef AFX_DESIGN_TIME
@@ -33,4 +35,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnBnClickedBtnDlg();
+	afx_msg void OnDestroy();
+
+	void CallFunc(int n);
 };
