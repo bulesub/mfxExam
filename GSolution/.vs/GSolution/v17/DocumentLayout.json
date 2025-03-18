@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
       "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GProjectDlg.h",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h",
               "RelativeDocumentMoniker": "GProject\\GProjectDlg.h",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h",
               "RelativeToolTip": "GProject\\GProjectDlg.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-17T17:32:54.119Z",
               "EditorCaption": ""
@@ -57,20 +57,20 @@
               "RelativeDocumentMoniker": "GProject\\GProjectDlg.cpp",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.cpp",
               "RelativeToolTip": "GProject\\GProjectDlg.cpp",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAIwLQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAIwMYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T10:07:19.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CDlgImage.h",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h",
               "RelativeDocumentMoniker": "GProject\\CDlgImage.h",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h",
               "RelativeToolTip": "GProject\\CDlgImage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-17T17:31:53.558Z",
               "EditorCaption": ""
@@ -83,34 +83,32 @@
               "RelativeDocumentMoniker": "GProject\\CDlgImage.cpp",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.cpp",
               "RelativeToolTip": "GProject\\CDlgImage.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAhwGcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T17:33:11.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GProject.rc - IDD_GPROJECT_DIALOG - Dialog",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc",
               "RelativeDocumentMoniker": "GProject\\GProject.rc",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc - IDD_GPROJECT_DIALOG - Dialog",
               "RelativeToolTip": "GProject\\GProject.rc - IDD_GPROJECT_DIALOG - Dialog",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-17T17:32:44.907Z",
-              "EditorCaption": " - IDD_GPROJECT_DIALOG - Dialog"
+              "WhenOpened": "2025-03-17T17:32:44.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GProject.rc - IDD_CDlgImage - Dialog",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc",
               "RelativeDocumentMoniker": "GProject\\GProject.rc",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc - IDD_CDlgImage - Dialog",
               "RelativeToolTip": "GProject\\GProject.rc - IDD_CDlgImage - Dialog",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-17T17:34:43.343Z",
-              "EditorCaption": " - IDD_CDlgImage - Dialog"
+              "WhenOpened": "2025-03-17T17:34:43.343Z"
             }
           ]
         }
