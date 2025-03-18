@@ -57,6 +57,7 @@ END_MESSAGE_MAP()
 
 CGProjectDlg::CGProjectDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_GPROJECT_DIALOG, pParent)
+	, m_nSize(0)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -64,6 +65,7 @@ CGProjectDlg::CGProjectDlg(CWnd* pParent /*=nullptr*/)
 void CGProjectDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_EDIT_SIZE, m_nSize);
 }
 
 BEGIN_MESSAGE_MAP(CGProjectDlg, CDialogEx)
@@ -73,6 +75,10 @@ BEGIN_MESSAGE_MAP(CGProjectDlg, CDialogEx)
 	ON_WM_DESTROY()
 	ON_BN_CLICKED(IDC_BTN_TEST, &CGProjectDlg::OnBnClickedBtnTest)
 	ON_WM_PAINT()
+	ON_BN_CLICKED(IDC_BTN_PROCESS, &CGProjectDlg::OnBnClickedBtnProcess)
+	ON_BN_CLICKED(IDC_BTN_MAKE_PATTERN, &CGProjectDlg::OnBnClickedBtnMakePattern)
+	ON_BN_CLICKED(IDC_BTN_GET_DATA, &CGProjectDlg::OnBnClickedBtnGetData)
+	ON_EN_CHANGE(IDC_EDIT_SIZE, &CGProjectDlg::OnEnChangeEditSize)
 END_MESSAGE_MAP()
 
 
@@ -200,4 +206,77 @@ void CGProjectDlg::OnBnClickedBtnTest()
 
 	m_pDlgImage->Invalidate();
 	m_pDlgImageResult->Invalidate();
+}
+
+#include "CProcess.h"
+#include <chrono>
+void CGProjectDlg::OnBnClickedBtnProcess()
+{
+	CProcess process;
+
+	auto start = chrono::system_clock::now();
+	int nReturn = process.GetStarInfo(&m_pDlgImage->m_image, 100);
+	auto end = chrono::system_clock::now();
+	auto millisec = chrono::duration_cast<chrono::milliseconds>(end - start);
+
+	cout << nReturn << "\t" << millisec.count() << "ms" << endl;
+}
+
+void CGProjectDlg::OnBnClickedBtnMakePattern()
+{
+	unsigned char* fm = (unsigned char*)m_pDlgImage->m_image.GetBits();
+	int nWidth = m_pDlgImage->m_image.GetWidth();
+	int nHeight = m_pDlgImage->m_image.GetHeight();
+	int nPitch = m_pDlgImage->m_image.GetPitch();
+	memset(fm, 0, nWidth * nHeight);
+
+	CRect rect(100, 100, 200, 200);
+	for (int j = rect.top; j < rect.bottom; j++)
+	{
+		for (int i = rect.left; i < rect.right; i++)
+		{
+			fm[j * nPitch + i] = rand() % 0xff;
+		}
+	}
+	m_pDlgImage->Invalidate();
+}
+
+void CGProjectDlg::OnBnClickedBtnGetData()
+{
+	const CImage& image = m_pDlgImage->m_image;
+	unsigned char* fm = (unsigned char*)image.GetBits();
+	int nWidth = image.GetWidth();
+	int nHeight = image.GetHeight();
+	int nPitch = image.GetPitch();
+
+	int nTh = 0x80;
+	CRect rect(0, 0, nWidth, nHeight);
+	int nSumX = 0, nSumY = 0, nCount = 0;
+	for (int j = rect.top; j < rect.bottom; j++)
+	{
+		for (int i = rect.left; i < rect.right; i++)
+		{
+			if (fm[j * nPitch + i] > nTh)
+			{
+				nSumX += i;
+				nSumY += j;
+				nCount++;
+			}
+		}
+	}
+
+	double dCenterX = (double)nSumX / nCount;
+	double dCenterY = (double)nSumY / nCount;
+
+	cout << dCenterX << "\t" << dCenterY << endl;
+}
+
+void CGProjectDlg::OnEnChangeEditSize()
+{
+	// TODO:  RICHEDIT 컨트롤인 경우, 이 컨트롤은
+	// CDialogEx::OnInitDialog() 함수를 재지정 
+	//하고 마스크에 OR 연산하여 설정된 ENM_CHANGE 플래그를 지정하여 CRichEditCtrl().SetEventMask()를 호출하지 않으면
+	// ENM_CHANGE가 있으면 마스크에 ORed를 플래그합니다.
+
+	// TODO:  여기에 컨트롤 알림 처리기 코드를 추가합니다.
 }
