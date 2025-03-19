@@ -34,4 +34,6 @@ public:
 private:
 	void InitImage();
 	void DrawData(CDC* pDC);
+public:
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
 };

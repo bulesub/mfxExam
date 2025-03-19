@@ -79,6 +79,9 @@ BEGIN_MESSAGE_MAP(CGProjectDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BTN_MAKE_PATTERN, &CGProjectDlg::OnBnClickedBtnMakePattern)
 	ON_BN_CLICKED(IDC_BTN_GET_DATA, &CGProjectDlg::OnBnClickedBtnGetData)
 	ON_EN_CHANGE(IDC_EDIT_SIZE, &CGProjectDlg::OnEnChangeEditSize)
+	ON_BN_CLICKED(IDC_BTN_THREAD, &CGProjectDlg::OnBnClickedBtnThread)
+//	ON_WM_MOUSEMOVE()
+//ON_WM_MOUSEACTIVATE()
 END_MESSAGE_MAP()
 
 
@@ -279,4 +282,66 @@ void CGProjectDlg::OnEnChangeEditSize()
 	// ENM_CHANGE가 있으면 마스크에 ORed를 플래그합니다.
 
 	// TODO:  여기에 컨트롤 알림 처리기 코드를 추가합니다.
+}
+
+#include <thread>
+#include <vector>
+void ThreadProcess(CWnd* pParent, CRect rect, int* nRect)
+{
+	CGProjectDlg* pWnd = (CGProjectDlg*)pParent;
+	*nRect = pWnd->ProcessImage(rect);
+}
+
+void CGProjectDlg::OnBnClickedBtnThread()
+{
+	auto start = chrono::system_clock::now();
+
+	int nImageSize = 4096 * 4;
+	CRect rect(0, 0, nImageSize, nImageSize);
+	CRect rt[4];
+	int nRect[4];
+	for (int k = 0; k < 4; k++)
+	{
+		rt[k] = rect;
+		rt[k].OffsetRect(nImageSize * (k % 2), nImageSize * int(k / 2));
+	}
+	
+	vector<thread> _threads;
+	for (int i = 0; i < 4; i++)
+		_threads.push_back(thread(ThreadProcess, this, rt[i], &nRect[i]));
+
+	for (thread& thr : _threads) thr.join();
+
+	//thread _thread0(ThreadProcess, this, rt[0], &nRect[0]);
+	//thread _thread1(ThreadProcess, this, rt[1], &nRect[1]);
+	//thread _thread2(ThreadProcess, this, rt[2], &nRect[2]);
+	//thread _thread3(ThreadProcess, this, rt[3], &nRect[3]);
+
+	//_thread0.join();
+	//_thread1.join();
+	//_thread2.join();
+	//_thread3.join();
+
+	int nSum = 0;
+	for (int i = 0; i < 4; i++)
+		nSum += nRect[i];
+
+	auto end = chrono::system_clock::now();
+	auto millisec = chrono::duration_cast<chrono::milliseconds>(end - start);
+	cout << "main : " << nSum << "\t" << millisec.count() * 0.001 << "sec" << endl;
+}
+
+int CGProjectDlg::ProcessImage(CRect rect)
+{
+	auto start = chrono::system_clock::now();
+
+	CProcess process;
+
+	int nRect = process.GetStarInfo(&m_pDlgImage->m_image, 0, rect);
+
+	auto end = chrono::system_clock::now();
+	auto millisec = chrono::duration_cast<chrono::milliseconds>(end - start);
+	cout << "thread : " << nRect << "\t" << millisec.count() * 0.001 << "sec" << endl;
+
+	return nRect;
 }

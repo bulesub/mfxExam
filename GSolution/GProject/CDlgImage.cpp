@@ -31,6 +31,7 @@ BEGIN_MESSAGE_MAP(CDlgImage, CDialogEx)
 	ON_BN_CLICKED(IDC_BTN_UP_PARENT, &CDlgImage::OnBnClickedBtnUpParent)
 //	ON_WM_PAINT()
 ON_WM_PAINT()
+ON_WM_MOUSEMOVE()
 END_MESSAGE_MAP()
 
 
@@ -70,8 +71,8 @@ void CDlgImage::OnPaint()
 
 void CDlgImage::InitImage()
 {
-	int nWidth = 4096 * 5;
-	int nHeight = 4096 * 5;
+	int nWidth = 4096 * 8;
+	int nHeight = 4096 * 8;
 	int nBpp = 8;
 
 	m_image.Create(nWidth, -nHeight, nBpp);
@@ -104,4 +105,14 @@ void CDlgImage::DrawData(CDC* pDC)
 	}
 
 	pDC->SelectObject(pOldPen);
+}
+
+#include <iostream>
+void CDlgImage::OnMouseMove(UINT nFlags, CPoint point)
+{
+	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+
+	CDialogEx::OnMouseMove(nFlags, point);
+	
+	std::cout << "(" << nFlags << ") : " << point.x << " " << point.y << std::endl;
 }

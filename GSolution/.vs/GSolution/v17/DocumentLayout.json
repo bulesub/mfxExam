@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u008C 2$  \u0022     ",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u008C 2$  \u0022     "
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CDlgImage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CDlgImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u008C 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u008C 2$  \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProject.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\CProcess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21D903A5-BE4B-5CF9-929F-69C292D64910}|GProject\\GProject.vcxproj|solutionrelative:GProject\\GProjectDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,79 +46,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "pch.h",
+              "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\pch.h",
+              "RelativeDocumentMoniker": "GProject\\pch.h",
+              "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\pch.h",
+              "RelativeToolTip": "GProject\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T19:13:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CProcess.h",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.h",
               "RelativeDocumentMoniker": "GProject\\CProcess.h",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.h",
               "RelativeToolTip": "GProject\\CProcess.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T12:21:30.926Z"
+              "WhenOpened": "2025-03-18T12:21:30.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CProcess.cpp",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.cpp",
               "RelativeDocumentMoniker": "GProject\\CProcess.cpp",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CProcess.cpp",
               "RelativeToolTip": "GProject\\CProcess.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T12:23:41.093Z"
+              "WhenOpened": "2025-03-18T12:23:41.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "GProjectDlg.h",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h",
               "RelativeDocumentMoniker": "GProject\\GProjectDlg.h",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.h",
               "RelativeToolTip": "GProject\\GProjectDlg.h",
-              "ViewState": "AgIAACIAAAAAAAAAAAD4vyoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAD4vy8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-17T17:32:54.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T17:32:54.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GProjectDlg.cpp",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.cpp",
               "RelativeDocumentMoniker": "GProject\\GProjectDlg.cpp",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProjectDlg.cpp",
               "RelativeToolTip": "GProject\\GProjectDlg.cpp",
-              "ViewState": "AgIAAAQBAAAAAAAAAAD4vxgBAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACQBAAAAAAAAAAAAACQBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T10:07:19.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CDlgImage.h",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h",
               "RelativeDocumentMoniker": "GProject\\CDlgImage.h",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.h",
               "RelativeToolTip": "GProject\\CDlgImage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-17T17:31:53.558Z"
+              "WhenOpened": "2025-03-17T17:31:53.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CDlgImage.cpp",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.cpp",
               "RelativeDocumentMoniker": "GProject\\CDlgImage.cpp",
               "ToolTip": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\CDlgImage.cpp",
               "RelativeToolTip": "GProject\\CDlgImage.cpp",
-              "ViewState": "AgIAAEMAAAAAAAAAAAD4v0YAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAD4v24AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T17:33:11.664Z",
               "EditorCaption": ""
@@ -133,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GProject.rc - IDD_GPROJECT_DIALOG - Dialog",
               "DocumentMoniker": "D:\\bulesub\\MFCStudy\\mfxExam\\GSolution\\GProject\\GProject.rc",
               "RelativeDocumentMoniker": "GProject\\GProject.rc",

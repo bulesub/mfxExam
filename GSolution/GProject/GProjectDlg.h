@@ -43,4 +43,6 @@ public:
 	afx_msg void OnBnClickedBtnGetData();
 	int m_nSize;
 	afx_msg void OnEnChangeEditSize();
+	afx_msg void OnBnClickedBtnThread();
+	int ProcessImage(CRect rect);
 };
